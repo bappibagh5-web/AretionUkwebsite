@@ -126,51 +126,58 @@ const Home = () => {
       </section>
 
       {/* Group Companies Section */}
-      <section className="py-16 md:py-24" style={{ backgroundColor: 'var(--aretion-cream)' }}>
+      <section className="py-20 md:py-32" style={{ backgroundColor: 'var(--aretion-cream)' }}>
         <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="mb-4" style={{ color: 'var(--aretion-navy)' }}>Group Companies</h2>
+          <div className="text-center mb-16">
+            <div className="inline-block mb-4">
+              <div 
+                className="w-16 h-0.5 mx-auto"
+                style={{ backgroundColor: 'var(--aretion-rust)' }}
+              />
+            </div>
+            <h2 className="mb-6 font-light tracking-tight" style={{ color: 'var(--aretion-navy)' }}>Group Companies</h2>
             <p className="text-lg max-w-2xl mx-auto" style={{ color: 'var(--text-secondary)' }}>
               Three specialist entities delivering excellence in their respective fields
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {groupCompanies.map((company, index) => {
               const IconComponent = iconComponents[company.icon];
               return (
                 <div
                   key={company.id}
-                  className="bg-white rounded-lg p-8 transition-all hover:shadow-lg group"
+                  className="bg-white p-10 transition-all hover:shadow-xl group border"
                   style={{
                     animationDelay: `${index * 100}ms`,
-                    border: '1px solid rgba(26, 58, 82, 0.08)'
+                    borderColor: 'rgba(26, 58, 82, 0.06)',
+                    borderTop: '3px solid var(--aretion-navy)'
                   }}
                 >
                   <div 
-                    className="w-12 h-12 rounded-lg mb-6 flex items-center justify-center transition-colors"
+                    className="w-14 h-14 mb-8 flex items-center justify-center transition-colors"
                     style={{ backgroundColor: 'var(--aretion-cream)' }}
                   >
                     <IconComponent 
-                      size={24} 
+                      size={26} 
                       style={{ color: 'var(--aretion-navy)' }}
                     />
                   </div>
-                  <h3 className="text-xl font-semibold mb-3" style={{ color: 'var(--aretion-navy)' }}>
+                  <h3 className="text-xl font-semibold mb-4 tracking-tight" style={{ color: 'var(--aretion-navy)' }}>
                     {company.name}
                   </h3>
-                  <p className="text-sm font-medium mb-3" style={{ color: 'var(--aretion-rust)' }}>
+                  <p className="text-sm font-medium mb-4 uppercase tracking-wider" style={{ color: 'var(--aretion-rust)', letterSpacing: '0.1em' }}>
                     {company.tagline}
                   </p>
-                  <p className="text-sm mb-6 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                  <p className="text-sm mb-8 leading-relaxed" style={{ color: 'var(--text-secondary)', lineHeight: '1.7' }}>
                     {company.description}
                   </p>
                   <a
                     href={company.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center space-x-2 text-sm font-medium transition-all group-hover:translate-x-1"
-                    style={{ color: 'var(--aretion-navy)' }}
+                    className="inline-flex items-center space-x-2 text-sm font-medium transition-all group-hover:translate-x-1 uppercase tracking-wide"
+                    style={{ color: 'var(--aretion-navy)', letterSpacing: '0.05em' }}
                   >
                     <span>Learn more</span>
                     <ArrowRight size={16} />
@@ -183,32 +190,33 @@ const Home = () => {
       </section>
 
       {/* Acquisition Highlight */}
-      <section className="py-16 md:py-24" style={{ backgroundColor: 'var(--bg-primary)' }}>
+      <section className="py-20 md:py-32" style={{ backgroundColor: 'var(--bg-primary)' }}>
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto">
             <div 
-              className="rounded-lg p-8 md:p-12"
+              className="p-12 md:p-16 border-l-4"
               style={{ 
                 backgroundColor: 'var(--aretion-navy)',
-                color: 'var(--text-light)'
+                color: 'var(--text-light)',
+                borderColor: 'var(--aretion-tan)'
               }}
             >
-              <div className="text-sm font-medium mb-4" style={{ color: 'var(--aretion-tan)' }}>
+              <div className="text-xs font-semibold mb-6 uppercase tracking-widest" style={{ color: 'var(--aretion-tan)', letterSpacing: '0.2em' }}>
                 2025 ACQUISITION
               </div>
-              <h3 className="text-2xl md:text-3xl font-light mb-4">
+              <h3 className="text-3xl md:text-4xl font-light mb-6 tracking-tight">
                 Journal of Medicine, Law and Public Health
               </h3>
-              <p className="mb-6 leading-relaxed opacity-90">
+              <p className="mb-8 text-lg leading-relaxed" style={{ opacity: 0.9, lineHeight: '1.8' }}>
                 ARETION & Company has acquired the peer-reviewed Journal of Medicine, Law and Public Health (JMLPH), 
                 strengthening our commitment to publishing excellence and research integrity.
               </p>
               <Link 
                 to="/newsroom"
-                className="inline-flex items-center space-x-2 text-sm font-medium hover:underline"
-                style={{ color: 'var(--aretion-tan)' }}
+                className="inline-flex items-center space-x-2 text-sm font-medium hover:underline uppercase tracking-wide"
+                style={{ color: 'var(--aretion-tan)', letterSpacing: '0.1em' }}
               >
-                <span>Read announcement</span>
+                <span>Read Announcement</span>
                 <ArrowRight size={16} />
               </Link>
             </div>
