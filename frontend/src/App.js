@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Home from './pages/Home';
@@ -19,26 +19,28 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/group-companies" element={<GroupCompanies />} />
-          <Route path="/governance" element={<Governance />} />
-          <Route path="/standards" element={<Standards />} />
-          <Route path="/newsroom" element={<Newsroom />} />
-          <Route path="/insights" element={<Insights />} />
-          <Route path="/careers" element={<Careers />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/terms" element={<Terms />} />
-        </Routes>
-      </main>
-      <Footer />
-      <Toaster />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/group-companies" element={<GroupCompanies />} />
+            <Route path="/governance" element={<Governance />} />
+            <Route path="/standards" element={<Standards />} />
+            <Route path="/newsroom" element={<Newsroom />} />
+            <Route path="/insights" element={<Insights />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+          </Routes>
+        </main>
+        <Footer />
+        <Toaster />
+      </div>
+    </BrowserRouter>
   );
 }
 
