@@ -5,12 +5,28 @@ import { ArrowRight } from 'lucide-react';
 const About = () => {
   return (
     <div className="min-h-screen pt-24">
-      {/* Hero */}
-      <section className="py-16 md:py-24" style={{ backgroundColor: '#fafafa' }}>
-        <div className="container mx-auto">
+      {/* Hero with Image */}
+      <section className="relative min-h-[400px] md:min-h-[500px] flex items-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url(/images/about-hero.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        >
+          <div 
+            className="absolute inset-0"
+            style={{ backgroundColor: 'rgba(26, 58, 82, 0.6)' }}
+          />
+        </div>
+        
+        {/* Content */}
+        <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto">
-            <h1 className="mb-6 font-light" style={{ color: 'var(--aretion-navy)' }}>About ARETION & Company</h1>
-            <p className="text-xl leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+            <h1 className="mb-6 font-light" style={{ color: 'white' }}>About ARETION & Company</h1>
+            <p className="text-xl leading-relaxed" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
               Origins, evolution, and structure of our healthcare group
             </p>
           </div>
