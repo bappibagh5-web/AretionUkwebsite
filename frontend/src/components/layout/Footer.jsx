@@ -34,7 +34,6 @@ const Footer = () => {
       title: 'Resources',
       links: [
         { label: 'Newsroom', path: '/newsroom' },
-        { label: 'Insights & Research', path: '/insights' },
         { label: 'Careers', path: '/careers' },
         { label: 'Contact Us', path: '/contact' },
         { label: 'Media Enquiries', path: '/contact#media' },
