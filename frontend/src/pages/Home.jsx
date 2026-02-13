@@ -47,7 +47,7 @@ const Home = () => {
               Healthcare since 1986
             </div>
             <h1 className="mb-6" style={{ color: 'white', lineHeight: '1.1', fontWeight: 300 }}>
-              ARETION Global
+              ARETION & Company
             </h1>
             <p className="text-xl md:text-2xl mb-8 leading-relaxed" style={{ color: 'rgba(255, 255, 255, 0.95)', maxWidth: '700px', lineHeight: '1.6' }}>
               A UK-based healthcare group bringing together specialist companies in informatics, publishing and consulting
@@ -178,11 +178,11 @@ const Home = () => {
                   style={{ backgroundColor: 'var(--aretion-rust)' }}
                 />
               </div>
-              <h2 className="mb-6 font-light tracking-tight" style={{ color: 'var(--aretion-navy)' }}>ARETION Global – Overview</h2>
+              <h2 className="mb-6 font-light tracking-tight" style={{ color: 'var(--aretion-navy)' }}>ARETION & Company – Overview</h2>
             </div>
             <div className="space-y-6 text-lg leading-relaxed" style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
               <p>
-                ARETION Global originated in 1986 as a small team providing independent support to healthcare organisations. 
+                ARETION & Company originated in 1986 as a small team providing independent support to healthcare organisations. 
                 Over time, its work has broadened to encompass data and digital health, specialist publishing and strategic consulting, 
                 whilst retaining a clear focus on strengthening health and care systems.
               </p>
@@ -192,7 +192,7 @@ const Home = () => {
                 in real-world settings.
               </p>
               <p>
-                ARETION Global provides strategic direction and governance for the group, setting shared expectations for quality, 
+                ARETION & Company provides strategic direction and governance for the group, setting shared expectations for quality, 
                 ethics and long-term partnership. Each subsidiary operates with a high degree of autonomy in its specialist field, 
                 whilst collaborating closely on programmes where combined expertise adds particular value.
               </p>
@@ -282,7 +282,7 @@ const Home = () => {
             </div>
             <div className="space-y-6 text-lg leading-relaxed mb-12" style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
               <p>
-                ARETION Global was founded with a commitment to strengthening health and care systems, particularly where resources 
+                ARETION & Company was founded with a commitment to strengthening health and care systems, particularly where resources 
                 are constrained. Across the group, companies work with partners to improve access to reliable information, support 
                 better use of data and enable sustainable improvements in services and outcomes.
               </p>

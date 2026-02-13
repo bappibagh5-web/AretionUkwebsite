@@ -9,7 +9,7 @@ const About = () => {
       <section className="py-16 md:py-24" style={{ backgroundColor: '#fafafa' }}>
         <div className="container mx-auto">
           <div className="max-w-4xl mx-auto">
-            <h1 className="mb-6 font-light" style={{ color: 'var(--aretion-navy)' }}>About ARETION Global</h1>
+            <h1 className="mb-6 font-light" style={{ color: 'var(--aretion-navy)' }}>About ARETION & Company</h1>
             <p className="text-xl leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
               Origins, evolution, and structure of our healthcare group
             </p>
@@ -24,7 +24,7 @@ const About = () => {
             <h2 className="mb-6 font-light" style={{ color: 'var(--aretion-navy)' }}>Who we are</h2>
             <div className="space-y-6 text-lg leading-relaxed" style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
               <p>
-                ARETION Global is a UK-based holding company overseeing three operating entities across healthcare informatics, 
+                ARETION & Company is a UK-based holding company overseeing three operating entities across healthcare informatics, 
                 publishing, and consulting.
               </p>
               <p>
@@ -44,7 +44,7 @@ const About = () => {
             <h2 className="mb-6 font-light" style={{ color: 'var(--aretion-navy)' }}>Our History</h2>
             <div className="space-y-6 text-lg leading-relaxed" style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
               <p>
-                The concept for ARETION Global was born in 1986, rooted in a vision to provide specialist expertise across 
+                The concept for ARETION & Company was born in 1986, rooted in a vision to provide specialist expertise across 
                 critical sectors of healthcare and research. What began as a small team providing independent support to 
                 healthcare organisations has evolved into a comprehensive group encompassing data and digital health, 
                 specialist publishing and strategic consulting.
@@ -70,7 +70,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <h2 className="mb-6 font-light" style={{ color: 'var(--aretion-navy)' }}>How we operate</h2>
             <p className="text-lg leading-relaxed mb-8" style={{ color: 'var(--text-secondary)', lineHeight: '1.8' }}>
-              ARETION Global follows a governance-led approach characterised by:
+              ARETION & Company follows a governance-led approach characterised by:
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               {[
