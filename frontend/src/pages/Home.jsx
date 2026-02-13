@@ -100,6 +100,73 @@ const Home = () => {
         </div>
       </section>
 
+      {/* UK Heritage Section - New */}
+      <section className="py-24 md:py-32" style={{ backgroundColor: '#f8f8f8' }}>
+        <div className="container mx-auto">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="mb-6 font-light tracking-tight" style={{ color: 'var(--aretion-navy)' }}>
+                Rooted in British Excellence
+              </h2>
+              <p className="text-lg max-w-3xl mx-auto" style={{ color: 'var(--text-secondary)', lineHeight: '1.75' }}>
+                Our heritage reflects the highest standards of British professional practice, combining traditional rigour 
+                with contemporary innovation across our specialist domains.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="group overflow-hidden" style={{ backgroundColor: 'white' }}>
+                <div className="overflow-hidden" style={{ height: '280px' }}>
+                  <img 
+                    src="/images/london-arch-1.jpg" 
+                    alt="London Architecture" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-8">
+                  <h4 className="mb-3 font-light" style={{ color: 'var(--aretion-navy)' }}>London Headquarters</h4>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                    Based in the heart of London, our registered office exemplifies our commitment to British professional standards.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="group overflow-hidden" style={{ backgroundColor: 'white' }}>
+                <div className="overflow-hidden" style={{ height: '280px' }}>
+                  <img 
+                    src="/images/london-arch-2.jpg" 
+                    alt="UK Innovation" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-8">
+                  <h4 className="mb-3 font-light" style={{ color: 'var(--aretion-navy)' }}>Heritage & Innovation</h4>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                    Combining traditional values with forward-thinking approaches to healthcare informatics and research.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="group overflow-hidden" style={{ backgroundColor: 'white' }}>
+                <div className="overflow-hidden" style={{ height: '280px' }}>
+                  <img 
+                    src="/images/london-arch-3.jpg" 
+                    alt="British Excellence" 
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-8">
+                  <h4 className="mb-3 font-light" style={{ color: 'var(--aretion-navy)' }}>Global Reach</h4>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                    Whilst rooted in the UK, our work extends internationally with expansion into the Gulf region.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Overview Section */}
       <section className="py-20 md:py-32" style={{ backgroundColor: 'var(--bg-primary)' }}>
         <div className="container mx-auto">
