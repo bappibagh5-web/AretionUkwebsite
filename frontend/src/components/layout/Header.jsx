@@ -42,10 +42,16 @@ const Header = () => {
         <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="text-2xl md:text-3xl font-light tracking-tight transition-colors duration-300">
-              <span style={{ color: 'var(--aretion-navy)', fontWeight: 300 }}>ARETION</span>
+            <img 
+              src="/images/logo.jpg" 
+              alt="ARETION & Company" 
+              className="h-12 w-auto"
+              style={{ objectFit: 'contain' }}
+            />
+            <div className="text-xl md:text-2xl font-light tracking-tight transition-colors duration-300">
+              <span style={{ color: 'var(--aretion-tan)', fontWeight: 300 }}>ARETION</span>
               <span style={{ color: 'var(--aretion-rust)', fontWeight: 400 }}> & </span>
-              <span style={{ color: 'var(--aretion-navy)', fontWeight: 300 }}>Company</span>
+              <span style={{ color: 'var(--aretion-tan)', fontWeight: 300 }}>Company</span>
             </div>
           </Link>
 
