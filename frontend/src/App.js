@@ -9,7 +9,6 @@ import GroupCompanies from './pages/GroupCompanies';
 import Governance from './pages/Governance';
 import Standards from './pages/Standards';
 import Newsroom from './pages/Newsroom';
-import Insights from './pages/Insights';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
 import Privacy from './pages/Privacy';
@@ -32,7 +31,6 @@ function App() {
             <Route path="/governance" element={<Governance />} />
             <Route path="/standards" element={<Standards />} />
             <Route path="/newsroom" element={<Newsroom />} />
-            <Route path="/insights" element={<Insights />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy" element={<Privacy />} />
