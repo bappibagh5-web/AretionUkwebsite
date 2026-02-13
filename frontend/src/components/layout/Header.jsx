@@ -26,7 +26,6 @@ const Header = () => {
     { path: '/governance', label: 'Governance & Leadership' },
     { path: '/standards', label: 'Standards & Policies' },
     { path: '/newsroom', label: 'Newsroom' },
-    { path: '/insights', label: 'Insights' },
     { path: '/careers', label: 'Careers' },
     { path: '/contact', label: 'Contact' }
   ];
