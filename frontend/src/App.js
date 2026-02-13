@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import LoadingSpinner from './components/LoadingSpinner';
 import Home from './pages/Home';
 import About from './pages/About';
 import GroupCompanies from './pages/GroupCompanies';
@@ -20,6 +21,7 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+      <LoadingSpinner />
       <div className="App">
         <Header />
         <main>

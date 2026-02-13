@@ -6,6 +6,10 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  
+  // Determine which logo to use based on current route
+  const isHomePage = location.pathname === '/';
+  const logoSrc = isHomePage ? '/images/logo-orange.png' : '/images/logo-blue.png';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,11 +46,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 flex items-center justify-center" style={{ backgroundColor: 'var(--aretion-navy)', borderRadius: '4px', padding: '4px' }}>
+            <div className="w-10 h-10 flex items-center justify-center">
               <img 
-                src="/images/logo.jpg" 
+                src={logoSrc} 
                 alt="ARETION & Company" 
-                className="w-full h-full"
+                className="w-full h-full transition-all duration-300"
                 style={{ objectFit: 'contain' }}
               />
             </div>
