@@ -83,12 +83,15 @@ Create a conservative website for ARETION & Company, a UK-based group. The compa
 1. **Layout & Navigation**
    - Fixed header with smooth scroll behavior
    - Mobile-responsive navigation menu
-   - Professional footer with company info and offices
+   - **NEW Institutional Footer**: 3-tier design (brand band, navigation grid, utility bar)
+     - 4-column desktop layout with accordion on mobile
+     - Links: Our Group, Operating Entities, Resources, Where We Operate
+     - Language selector and social media icons
+     - No logo in footer
    - All navigation links functional
    - **Conditional Logo Display:** Orange/rust logo on homepage, blue logo on all other pages
    - **Loading Spinner:** Full-screen loading animation with subtle pulse/fade effect
    - **Unified Fonts:** Header and footer use IBM Plex Sans (website body font)
-   - **Footer Styling:** White text, yellow/tan headings, tighter spacing
 
 2. **Pages Created (11 total):**
    - Home (hero, company overview, group companies, initiatives)
