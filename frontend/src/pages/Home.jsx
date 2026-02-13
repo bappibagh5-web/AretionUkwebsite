@@ -16,11 +16,11 @@ const Home = () => {
       <section 
         className="relative pt-0 pb-0 overflow-hidden"
         style={{
-          height: '85vh',
-          minHeight: '600px',
+          height: '90vh',
+          minHeight: '700px',
           backgroundImage: 'url(/images/hero-image.jpg)',
           backgroundSize: 'cover',
-          backgroundPosition: 'center 35%',
+          backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat'
         }}
       >
@@ -28,7 +28,7 @@ const Home = () => {
         <div 
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to bottom, rgba(255,255,255,0.05) 0%, rgba(26, 58, 82, 0.75) 100%)'
+            background: 'linear-gradient(to bottom, rgba(255,255,255,0.02) 0%, rgba(26, 58, 82, 0.70) 100%)'
           }}
         />
         
