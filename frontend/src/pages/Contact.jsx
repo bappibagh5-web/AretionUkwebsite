@@ -137,7 +137,7 @@ const Contact = () => {
                 <div className="space-y-6">
                   <div>
                     <div className="font-medium mb-2" style={{ color: 'var(--aretion-navy)' }}>
-                      Registered Office
+                      London Office
                     </div>
                     <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                       71–75 Shelton Street<br />
