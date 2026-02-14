@@ -118,56 +118,128 @@ const TermsContent = () => (
   </div>
 );
 
-// Code of Conduct Content
+// Code of Conduct Content (Updated from uploaded document)
 const CodeOfConductContent = () => (
   <div className="prose prose-sm max-w-none">
     <p className="text-sm text-gray-500 mb-4">Last updated: 10 Feb 2026</p>
     
-    <p>This Code of Conduct explains the standards we expect from everyone who works for, or represents, ARETION & Company and its subsidiaries. It reflects our commitment to ethical conduct, professional integrity, patient-centred impact, and strict legal compliance in the UK and internationally.</p>
+    <p>ARETION & Company and its subsidiaries—ARETION Informatics Solutions, ARETION Publishing Group, and ARETION Healthcare Consulting—are committed to the highest standards of ethical conduct, professional integrity, and legal compliance.</p>
 
-    <h3>1. Who this Code applies to</h3>
-    <p>This Code applies to all individuals representing ARETION & Company and its subsidiaries, including employees, officers and directors, contractors, consultants, agency staff, partners, and agents.</p>
-
-    <h3>2. Our values and ethical commitments</h3>
+    <h3>Our Promise</h3>
+    <p>This Code of Conduct reflects our promise to our clients, patients, partners, employees, and the public that we will:</p>
     <ul>
-      <li><strong>Integrity:</strong> We act honestly, fairly, and transparently</li>
-      <li><strong>Patient-centred impact:</strong> Our work supports patient safety, dignity, equity, and improved health outcomes</li>
-      <li><strong>Independence and objectivity:</strong> We provide impartial, evidence-based guidance</li>
-      <li><strong>Respect:</strong> We treat people with dignity and fairness</li>
-      <li><strong>Accountability:</strong> We deliver high-quality work and welcome scrutiny</li>
-      <li><strong>Sustainability:</strong> We consider long-term social and environmental impacts</li>
-      <li><strong>Transparency:</strong> We communicate openly and correct errors promptly</li>
+      <li>Act with honesty and transparency in all dealings</li>
+      <li>Prioritise patient safety and wellbeing in all advice and recommendations</li>
+      <li>Provide independent, objective, evidence-based guidance free from conflicts of interest</li>
+      <li>Comply strictly with applicable laws and regulations</li>
+      <li>Respect human rights, dignity, and equality</li>
+      <li>Operate sustainably and responsibly</li>
+      <li>Speak up about misconduct without fear of retaliation</li>
     </ul>
 
-    <h3>3. Compliance with UK law</h3>
-    <p>We comply with applicable laws and regulations, including UK GDPR, Bribery Act 2010, Equality Act 2010, Modern Slavery Act 2015, Health and Safety at Work Act 1974, and other applicable laws.</p>
+    <h3>Who This Code Applies To</h3>
+    <p>This Code applies to all employees of ARETION & Company and its subsidiaries (full-time, part-time, fixed-term, and temporary), officers, directors, partners, contractors, consultants, and anyone representing ARETION & Company in any capacity.</p>
 
-    <h3>4. Anti-bribery and anti-corruption</h3>
-    <p>ARETION has zero tolerance for bribery and corruption. We do not offer, request, accept, or facilitate improper advantages in any form. Facilitation payments are prohibited.</p>
+    <h3>Our Core Values</h3>
+    <p><strong>Integrity:</strong> We act with honesty, fairness, and transparency in all our dealings. We keep our commitments, acknowledge mistakes, and are accountable for our actions.</p>
+    <p><strong>Patient-Centred Impact:</strong> Healthcare is our business. Everything we do must ultimately benefit patients and improve health outcomes. We prioritise patient safety, dignity, equity, and access to care in all recommendations.</p>
+    <p><strong>Independence and Objectivity:</strong> We provide impartial, evidence-based advice. We do not allow conflicts of interest, personal relationships, financial ties, or client preferences to compromise our professional judgment.</p>
+    <p><strong>Respect:</strong> We value the dignity, rights, autonomy, and wellbeing of everyone we work with. We treat all people fairly, regardless of background.</p>
+    <p><strong>Accountability:</strong> We take responsibility for the quality and integrity of our work, the accuracy of our analysis, and the impact of our projects.</p>
+    <p><strong>Sustainability:</strong> We consider the long-term environmental and social impact of our work.</p>
+    <p><strong>Transparency:</strong> We communicate openly and honestly with clients, regulators, employees, and the public.</p>
 
-    <h3>5. Conflicts of interest</h3>
-    <p>Conflicts of interest must be disclosed and managed. You must disclose any actual or potential conflict during recruitment, before joining a project, and as soon as circumstances change.</p>
-
-    <h3>6. Confidentiality and information security</h3>
-    <p>We protect sensitive information, including patient data, client confidential information, proprietary research, and security credentials. We maintain and follow security controls to prevent unauthorised access.</p>
-
-    <h3>7. Professional conduct</h3>
-    <p>We commit to working within our competence, providing evidence-based analysis, prioritising patient safety, and being transparent about methodology and limitations.</p>
-
-    <h3>8. Fair treatment, dignity, and inclusion</h3>
-    <p>We are committed to equal opportunity, inclusive working practices, and a respectful environment free from discrimination, harassment, bullying, or victimisation.</p>
-
-    <h3>9. Human rights and modern slavery</h3>
-    <p>We respect human rights and are committed to preventing modern slavery and exploitation in our operations and supply chain.</p>
-
-    <h3>10. Speaking up</h3>
-    <p>We encourage people to raise concerns in good faith and we prohibit retaliation. Concerns can be raised with your manager, HR, or Compliance and Ethics at compliance@aretion.co.uk.</p>
-
-    <h3>11. Questions</h3>
-    <p>If you have questions about this Code of Conduct:</p>
+    <h3>Legal Compliance</h3>
+    <p>ARETION & Company and its subsidiaries are committed to strict compliance with all applicable laws and regulations, including:</p>
     <ul>
-      <li>Compliance and Ethics: compliance@aretion.co.uk</li>
-      <li>Data Protection Officer: dpo@aretion.co.uk</li>
+      <li>Anti-corruption: Bribery Act 2010</li>
+      <li>Data protection and privacy: UK GDPR and Data Protection Act 2018</li>
+      <li>Human rights: Modern Slavery Act 2015, Human Rights Act 1998</li>
+      <li>Equality and discrimination: Equality Act 2010</li>
+      <li>Health and safety: Health and Safety at Work etc. Act 1974</li>
+    </ul>
+
+    <h3>Speaking Up</h3>
+    <p>We encourage and support employees, contractors, and partners to speak up about concerns without fear of retaliation. We welcome concerns about illegal conduct, breaches of this Code, health and safety risks, discrimination, harassment, or any other conduct that violates law or ethics.</p>
+    <p>Report concerns to:</p>
+    <ul>
+      <li>Compliance and Ethics team: compliance@aretion.co.uk</li>
+      <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
+    </ul>
+
+    <h3>Consequences of Breaches</h3>
+    <p>Breaches of this Code are taken seriously and may result in disciplinary action up to and including dismissal, referral to professional regulators, referral to law enforcement, and civil liability.</p>
+  </div>
+);
+
+// Anti-Bribery and Anti-Corruption Content (New)
+const AntiBriberyContent = () => (
+  <div className="prose prose-sm max-w-none">
+    <p className="text-sm text-gray-500 mb-4">Last updated: 14 Feb 2026</p>
+    
+    <h3>1. Policy Statement</h3>
+    <p>ARETION & Company and its subsidiaries have zero tolerance for bribery and corruption in any form. We are committed to conducting business ethically, transparently, and in full compliance with all applicable anti-bribery and anti-corruption laws, including the UK Bribery Act 2010 and applicable laws in Saudi Arabia, UAE, Qatar, and Kuwait.</p>
+    <p>This policy applies to all employees, officers, directors, contractors, consultants, agents, partners, and anyone acting on behalf of ARETION & Company in all jurisdictions where we operate.</p>
+
+    <h3>2. What is Bribery and Corruption?</h3>
+    <p><strong>Bribery</strong> is the offer, promise, giving, requesting, or acceptance of any advantage (financial or non-financial) with the intention of inducing someone to perform an improper function or activity, rewarding them for having done so, or influencing them to act improperly in their position of trust.</p>
+    <p>An advantage can include:</p>
+    <ul>
+      <li>Cash payments or loans</li>
+      <li>Gifts (tangible items of value)</li>
+      <li>Hospitality, entertainment, or travel</li>
+      <li>Employment opportunities or contracts</li>
+      <li>Donations or sponsorships</li>
+      <li>Preferential treatment or services</li>
+    </ul>
+    <p><strong>Corruption</strong> includes the misuse of entrusted power or position for private gain, including bribery, embezzlement, fraud, extortion, abuse of discretion, and nepotism.</p>
+
+    <h3>3. Prohibited Conduct</h3>
+    <p>ARETION & Company strictly prohibits:</p>
+    <ul>
+      <li><strong>Offering or Giving Bribes:</strong> Offering, promising, or giving anything of value to improperly influence a business decision</li>
+      <li><strong>Receiving or Soliciting Bribes:</strong> Requesting, accepting, or agreeing to accept anything of value in exchange for improper performance of duties</li>
+      <li><strong>Using Third Parties for Bribery:</strong> Using agents, intermediaries, consultants, or partners to offer or pay bribes on our behalf</li>
+      <li><strong>Facilitation Payments:</strong> Small payments to government officials to expedite routine administrative actions are strictly prohibited</li>
+    </ul>
+
+    <h3>4. Gifts and Hospitality</h3>
+    <p>Modest, reasonable gifts and hospitality may be appropriate in certain business contexts, provided they:</p>
+    <ul>
+      <li>Are of modest value (typically under £50 GBP or equivalent)</li>
+      <li>Are not cash, cash equivalents, or loans</li>
+      <li>Are not connected to a pending business decision or contract</li>
+      <li>Are transparent and properly recorded</li>
+      <li>Do not create a perception of impropriety</li>
+    </ul>
+    <p>The following are never acceptable: cash or gift cards, gifts to influence a specific decision, lavish or extravagant gifts, or anything that could reasonably be perceived as a bribe.</p>
+
+    <h3>5. Dealings with Government Officials</h3>
+    <p>Interactions with government officials, public sector employees, and representatives of state-owned enterprises require heightened care. Before providing any gift, hospitality, donation, or other benefit to a government official, you must obtain prior written approval from the Compliance and Ethics team.</p>
+
+    <h3>6. Reporting Suspected Bribery</h3>
+    <p>If you suspect, become aware of, or are offered a bribe, you must report it immediately to:</p>
+    <ul>
+      <li>Compliance and Ethics team: compliance@aretion.co.uk</li>
+      <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
+    </ul>
+    <p>ARETION prohibits retaliation against anyone who reports concerns in good faith.</p>
+
+    <h3>7. Consequences of Breaches</h3>
+    <p>Breaches of this policy are serious and may result in:</p>
+    <ul>
+      <li>Disciplinary action, up to and including dismissal</li>
+      <li>Referral to law enforcement authorities</li>
+      <li>Criminal prosecution (imprisonment, fines)</li>
+      <li>Civil liability and damages</li>
+      <li>Regulatory sanctions against ARETION</li>
+    </ul>
+
+    <h3>8. Contact</h3>
+    <p>For questions, guidance, or to report concerns:</p>
+    <ul>
+      <li>Compliance and Ethics Team: compliance@aretion.co.uk</li>
+      <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
     </ul>
   </div>
 );
@@ -207,6 +279,7 @@ const LegalModal = ({ isOpen, onClose, title, children }) => {
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
+      data-testid="legal-modal-overlay"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
@@ -216,6 +289,7 @@ const LegalModal = ({ isOpen, onClose, title, children }) => {
         ref={modalRef}
         className="relative bg-white rounded-lg shadow-2xl w-full max-w-3xl max-h-[85vh] flex flex-col"
         style={{ fontFamily: 'var(--font-body)' }}
+        data-testid="legal-modal-content"
       >
         {/* Header */}
         <div 
@@ -235,6 +309,7 @@ const LegalModal = ({ isOpen, onClose, title, children }) => {
             className="p-2 rounded-full hover:bg-gray-100 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2"
             style={{ focusRingColor: 'var(--aretion-navy)' }}
             aria-label="Close modal"
+            data-testid="legal-modal-close-btn"
           >
             <X size={20} style={{ color: 'var(--aretion-navy)' }} />
           </button>
@@ -259,6 +334,7 @@ const LegalModal = ({ isOpen, onClose, title, children }) => {
             }}
             onMouseEnter={(e) => e.target.style.opacity = '0.9'}
             onMouseLeave={(e) => e.target.style.opacity = '1'}
+            data-testid="legal-modal-close-footer-btn"
           >
             Close
           </button>
@@ -275,6 +351,7 @@ export const useLegalModals = () => {
   const openPrivacy = () => setActiveModal('privacy');
   const openTerms = () => setActiveModal('terms');
   const openCodeOfConduct = () => setActiveModal('code');
+  const openAntiBribery = () => setActiveModal('antibribery');
   const closeModal = () => setActiveModal(null);
 
   const LegalModals = () => (
@@ -302,10 +379,18 @@ export const useLegalModals = () => {
       >
         <CodeOfConductContent />
       </LegalModal>
+      
+      <LegalModal 
+        isOpen={activeModal === 'antibribery'} 
+        onClose={closeModal} 
+        title="Anti-Bribery and Anti-Corruption Policy"
+      >
+        <AntiBriberyContent />
+      </LegalModal>
     </>
   );
 
-  return { openPrivacy, openTerms, openCodeOfConduct, LegalModals };
+  return { openPrivacy, openTerms, openCodeOfConduct, openAntiBribery, LegalModals };
 };
 
 export default LegalModal;
