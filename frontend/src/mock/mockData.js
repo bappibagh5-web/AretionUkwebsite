@@ -54,31 +54,33 @@ export const newsroomArticles = [
 export const leadershipTeam = [
   {
     name: "James Patterson",
-    role: "Chief Executive Officer"
+    role: "Chief Executive Officer",
+    email: "jpatterson@aretion.co.uk"
   },
   {
     name: "Michael Bennett",
-    role: "Chief Technology Officer"
+    role: "Chief Technology Officer",
+    email: "mbennett@aretion.co.uk"
   },
   {
     name: "David Thompson",
-    role: "Chief Operating Officer"
+    role: "Chief Operating Officer",
+    email: "dthompson@aretion.co.uk"
   },
   {
     name: "Charlotte Moore",
-    role: "Director of Research, Innovation & New Service Development"
+    role: "Director of Research, Innovation & New Service Development",
+    email: "cmoore@aretion.co.uk"
   },
   {
     name: "William Carter",
-    role: "Director of Quality Assurance"
+    role: "Director of Quality Assurance",
+    email: "wcarter@aretion.co.uk"
   },
   {
     name: "Emma Watson",
-    role: "Head of Business Development"
-  },
-  {
-    name: "Christopher Hughes",
-    role: "Administrative Support"
+    role: "Head of Business Development",
+    email: "ewatson@aretion.co.uk"
   }
 ];
 
