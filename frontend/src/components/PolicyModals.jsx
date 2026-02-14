@@ -76,7 +76,7 @@ const AntiBriberyContent = () => (
   </div>
 );
 
-// Code of Conduct Content
+// Code of Conduct Content (Full document from uploaded file)
 const CodeOfConductContent = () => (
   <div className="prose prose-sm max-w-none" style={{ fontFamily: 'var(--font-body)' }}>
     <p className="text-sm text-gray-500 mb-4">Last updated: 10 Feb 2026</p>
@@ -95,39 +95,168 @@ const CodeOfConductContent = () => (
       <li>Speak up about misconduct without fear of retaliation</li>
     </ul>
 
-    <h3>Who This Code Applies To</h3>
-    <p>This Code applies to all employees of ARETION & Company and its subsidiaries (full-time, part-time, fixed-term, and temporary), officers, directors, partners, contractors, consultants, and anyone representing ARETION & Company in any capacity.</p>
+    <h3>1. Purpose, Scope, and Applicability</h3>
+    <p>This Code of Conduct sets out the ethical principles, behavioural standards, and legal obligations that govern all activities undertaken by or on behalf of ARETION & Company and its subsidiaries. It applies to:</p>
+    <ul>
+      <li>All employees of ARETION & Company and its subsidiaries (full-time, part-time, fixed-term, and temporary)</li>
+      <li>Officers, directors, and partners</li>
+      <li>Contractors, consultants, secondees, and agency workers</li>
+      <li>Anyone representing ARETION & Company, including agents, intermediaries, and business partners acting on our behalf</li>
+    </ul>
+    <p>This Code applies globally, including to our operations and personnel in the United Kingdom, Saudi Arabia, UAE, Qatar, and Kuwait, and to all activities undertaken on behalf of ARETION regardless of location.</p>
 
-    <h3>Our Core Values</h3>
+    <h3>2. Core Values and Ethical Principles</h3>
     <p><strong>Integrity:</strong> We act with honesty, fairness, and transparency in all our dealings. We keep our commitments, acknowledge mistakes, and are accountable for our actions.</p>
     <p><strong>Patient-Centred Impact:</strong> Healthcare is our business. Everything we do must ultimately benefit patients and improve health outcomes. We prioritise patient safety, dignity, equity, and access to care in all recommendations.</p>
     <p><strong>Independence and Objectivity:</strong> We provide impartial, evidence-based advice. We do not allow conflicts of interest, personal relationships, financial ties, or client preferences to compromise our professional judgment.</p>
-    <p><strong>Respect:</strong> We value the dignity, rights, autonomy, and wellbeing of everyone we work with. We treat all people fairly, regardless of background.</p>
+    <p><strong>Respect:</strong> We value the dignity, rights, autonomy, and wellbeing of everyone we work with. We treat all people fairly, regardless of background, identity, or beliefs.</p>
     <p><strong>Accountability:</strong> We take responsibility for the quality and integrity of our work, the accuracy of our analysis, and the impact of our projects.</p>
-    <p><strong>Sustainability:</strong> We consider the long-term environmental and social impact of our work.</p>
-    <p><strong>Transparency:</strong> We communicate openly and honestly with clients, regulators, employees, and the public.</p>
+    <p><strong>Sustainability:</strong> We consider the long-term environmental and social impact of our work and seek to contribute positively to society.</p>
+    <p><strong>Transparency:</strong> We communicate openly and honestly with clients, regulators, employees, and the public, within the bounds of confidentiality obligations.</p>
 
-    <h3>Anti-Bribery and Anti-Corruption</h3>
-    <p>ARETION & Company and its subsidiaries have a zero-tolerance policy on bribery and corruption. We do not tolerate bribery in any form, whether offered by us, to us, or by anyone acting on our behalf.</p>
-
-    <h3>Conflicts of Interest</h3>
-    <p>A conflict of interest arises where your personal or financial interests, relationships, or commitments could, or could be perceived to, influence your professional judgment. You must disclose any actual or potential conflict of interest immediately.</p>
-
-    <h3>Confidentiality and Data Protection</h3>
-    <p>ARETION & Company handles sensitive and confidential information including patient data, client strategic information, and employee personal information. Everyone is responsible for protecting confidential and personal information.</p>
-
-    <h3>Fair Treatment and Inclusion</h3>
-    <p>ARETION & Company is committed to creating a workplace that is fair, respectful, inclusive, and free from discrimination and harassment. We do not tolerate discrimination or harassment in any form.</p>
-
-    <h3>Speaking Up</h3>
-    <p>We encourage and support employees, contractors, and partners to speak up about concerns without fear of retaliation. Report concerns to:</p>
+    <h3>3. Compliance with Laws, Regulations, and Professional Standards</h3>
+    <p>ARETION & Company and its subsidiaries are committed to strict compliance with all applicable laws and regulations in every jurisdiction where we operate. Key areas include:</p>
     <ul>
+      <li><strong>Anti-corruption:</strong> Bribery Act 2010 (UK); US Foreign Corrupt Practices Act (FCPA); anti-corruption laws in Saudi Arabia, UAE, Qatar, and Kuwait</li>
+      <li><strong>Data protection and privacy:</strong> UK GDPR and Data Protection Act 2018; PDPL (Saudi Arabia); and equivalent laws in UAE, Qatar, Kuwait</li>
+      <li><strong>Human rights:</strong> Modern Slavery Act 2015 (UK); Human Rights Act 1998; ILO Conventions</li>
+      <li><strong>Equality and discrimination:</strong> Equality Act 2010 (UK); local labour laws on non-discrimination in Gulf states</li>
+      <li><strong>Health and safety:</strong> Health and Safety at Work etc. Act 1974 (UK); local H&S laws in Gulf countries</li>
+      <li><strong>Financial regulation:</strong> Financial Conduct Authority (FCA) rules where applicable; anti-money laundering (AML) laws</li>
+      <li><strong>Competition and antitrust:</strong> Competition Act 1998 (UK); EU competition law; GCC Competition Framework</li>
+      <li><strong>Professional standards:</strong> Guidance from professional bodies (e.g., GMC, NMC, GPhC, HCPC, CQC in UK healthcare; SCFHS, DHA, MOHAP, MOH in Gulf countries)</li>
+    </ul>
+
+    <h3>4. Anti-Bribery and Anti-Corruption</h3>
+    <p>ARETION & Company and its subsidiaries have a zero-tolerance policy on bribery and corruption. We do not tolerate bribery in any form—whether offered by us, to us, or by anyone acting on our behalf.</p>
+    <p><strong>Prohibited conduct includes:</strong></p>
+    <ul>
+      <li>Offering, promising, or giving anything of value to obtain an improper advantage</li>
+      <li>Requesting, accepting, or agreeing to accept anything of value in exchange for improper conduct</li>
+      <li>Making facilitation payments (small payments to expedite routine government actions)</li>
+      <li>Using agents, intermediaries, or third parties to do anything prohibited</li>
+    </ul>
+    <p><strong>Gifts and hospitality:</strong> We permit modest, reasonable gifts and hospitality that are lawful, proportionate, transparent, properly approved and recorded, not connected to a pending business decision or contract, and not involving government officials without prior written compliance approval.</p>
+    <p><strong>Red flags include:</strong> requests for cash or untraceable payments; requests to make payments to third parties or unusual accounts; excessive hospitality or gifts; pressure to circumvent approval processes; and any suggestion of a "kickback" arrangement.</p>
+
+    <h3>5. Conflicts of Interest</h3>
+    <p>A conflict of interest arises where your personal or financial interests, relationships, or commitments could—or could be perceived to—influence your professional judgment, create a breach of duty to ARETION or our clients, or compromise our independence and objectivity.</p>
+    <p><strong>Common situations include:</strong></p>
+    <ul>
+      <li>Financial interests in clients, competitors, or suppliers</li>
+      <li>Close relationships with clients, regulators, or competitors</li>
+      <li>Outside employment, board positions, or advisory roles</li>
+      <li>Personal relationships with colleagues in reporting lines</li>
+      <li>Advising competing clients on related matters</li>
+    </ul>
+    <p><strong>Your obligation:</strong> Disclose any actual or potential conflict of interest immediately to your manager and Compliance (compliance@aretion.co.uk). We will assess the conflict and determine appropriate management measures.</p>
+
+    <h3>6. Confidentiality, Data Protection, and Information Security</h3>
+    <p>ARETION handles sensitive and confidential information—including patient data, client strategic information, proprietary research, financial data, and employee personal information. Everyone is responsible for protecting confidential and personal information.</p>
+    <p><strong>Key obligations:</strong></p>
+    <ul>
+      <li>Do not disclose confidential information to anyone without authorisation</li>
+      <li>Use confidential information only for its intended purpose</li>
+      <li>Protect personal data in accordance with UK GDPR and equivalent laws</li>
+      <li>Do not access, copy, or transmit data beyond what is necessary for your work</li>
+      <li>Follow IT security policies—including password management, encryption, and device security</li>
+      <li>Report any suspected data breach or security incident immediately</li>
+    </ul>
+
+    <h3>7. Professional Conduct with Clients and Protection of Patients' Interests</h3>
+    <p>Our clients trust us to provide expert, independent, and objective advice. We must protect that trust at all times.</p>
+    <p><strong>Patient-centred principles:</strong> Patient safety is paramount in all recommendations. We base clinical guidance on best available evidence and established standards. We ensure our advice considers equity of access and the needs of vulnerable populations. We identify and disclose any potential harm or risk. We support informed consent and shared decision-making principles.</p>
+    <p><strong>Professional conduct:</strong> We provide honest, accurate, and well-researched advice. We do not guarantee outcomes or make promises we cannot keep. We respect client confidentiality but never at the expense of patient safety or legal obligations. We report concerns about unsafe practices or potential patient harm immediately.</p>
+
+    <h3>8. Fair Treatment, Diversity, Equity, Inclusion, and Anti-Harassment</h3>
+    <p>ARETION & Company is committed to creating a workplace that is fair, respectful, inclusive, and free from discrimination and harassment. We do not tolerate discrimination or harassment based on age, disability, gender reassignment, marriage or civil partnership, pregnancy or maternity, race (including colour, nationality, ethnic or national origin), religion or belief, sex, sexual orientation, or any other protected characteristic.</p>
+    <p><strong>Harassment</strong> includes unwanted conduct that has the purpose or effect of violating a person's dignity or creating a hostile, degrading, humiliating, or offensive environment. This includes verbal abuse, offensive jokes, physical intimidation, unwanted sexual attention, and bullying.</p>
+
+    <h3>9. Human Rights, Modern Slavery, and Responsible Supply Chain</h3>
+    <p>ARETION is committed to respecting human rights in our operations and supply chain. We have zero tolerance for modern slavery, human trafficking, forced labour, and child labour. We expect suppliers and partners to uphold equivalent standards.</p>
+    <p><strong>Our commitments:</strong></p>
+    <ul>
+      <li>Respect and support the protection of internationally recognised human rights</li>
+      <li>Never use or benefit from forced, bonded, or child labour</li>
+      <li>Conduct due diligence on suppliers and partners</li>
+      <li>Report concerns about human rights abuses in our operations or supply chain</li>
+    </ul>
+
+    <h3>10. Health, Safety, and Wellbeing at Work</h3>
+    <p>ARETION is committed to providing a safe, healthy workplace and protecting the physical and mental health of all personnel.</p>
+    <p><strong>Responsibilities:</strong></p>
+    <ul>
+      <li>Follow all health and safety policies, procedures, and instructions</li>
+      <li>Report hazards, near-misses, and incidents immediately</li>
+      <li>Do not work under the influence of alcohol, illegal drugs, or substances that impair judgment</li>
+      <li>Raise concerns about unsafe working conditions</li>
+      <li>Support colleagues' mental health and wellbeing</li>
+    </ul>
+
+    <h3>11. Use of Company Assets, Technology, Intellectual Property, and Acceptable Use</h3>
+    <p>ARETION provides technology, equipment, and resources to support your work. These are valuable assets that must be used responsibly.</p>
+    <p><strong>You must:</strong></p>
+    <ul>
+      <li>Use ARETION technology and equipment only for authorised business purposes</li>
+      <li>Protect devices and data from loss, theft, or unauthorised access</li>
+      <li>Not install unauthorised software or applications</li>
+      <li>Not use ARETION systems for illegal, offensive, or inappropriate purposes</li>
+      <li>Respect intellectual property rights—including ARETION's proprietary materials, client materials, and third-party IP</li>
+    </ul>
+    <p><strong>AI and automation:</strong> Do not input confidential, personal, or sensitive information into external AI tools (such as ChatGPT, Copilot, Gemini, or similar) without prior written approval from IT and Compliance.</p>
+
+    <h3>12. Insider Information, Market Abuse, and Handling Sensitive Commercial Information</h3>
+    <p>Through our work, we may obtain material non-public information about clients, their strategies, or market-moving events. Trading, or advising others to trade, on the basis of insider information is illegal. Disclosing insider information to anyone outside the engagement team is prohibited.</p>
+
+    <h3>13. Research Ethics, Data Analytics, and AI/Algorithmic Fairness</h3>
+    <p>ARETION engages in research, data analytics, and technology-enabled consulting. We must conduct this work ethically and responsibly.</p>
+    <p><strong>Key principles:</strong></p>
+    <ul>
+      <li>Research involving human subjects must have ethics approval and informed consent</li>
+      <li>Data analytics must respect privacy, accuracy, and transparency</li>
+      <li>AI and algorithmic systems must be fair, explainable, and free from bias</li>
+      <li>Publication and dissemination of research must be honest and accurate</li>
+    </ul>
+
+    <h3>14. Environmental and Social Responsibility</h3>
+    <p>ARETION is committed to minimising our environmental impact and contributing positively to society. We integrate ESG considerations into our consulting advice and recommendations. We reduce energy consumption, waste, and carbon emissions in our operations. We encourage sustainable practices among employees, clients, and partners.</p>
+
+    <h3>15. Record-Keeping, Documentation, and Reporting Accuracy</h3>
+    <p>Accurate records are essential for regulatory compliance, financial integrity, and client trust.</p>
+    <p><strong>You must:</strong></p>
+    <ul>
+      <li>Keep accurate, complete, and honest records of all work and transactions</li>
+      <li>Never falsify, alter, or destroy records improperly</li>
+      <li>Follow document retention and destruction policies</li>
+      <li>Report any suspected financial irregularities or fraudulent record-keeping</li>
+    </ul>
+
+    <h3>16. Speaking Up, Whistleblowing, and Non-Retaliation</h3>
+    <p>We encourage and support employees, contractors, and partners to speak up about concerns without fear of retaliation. We welcome concerns about: illegal conduct, breaches of this Code, health and safety risks, discrimination or harassment, fraud, bribery, or financial misconduct, data protection breaches, environmental harm, or any other conduct that violates law or ethics.</p>
+    <p><strong>How to report:</strong></p>
+    <ul>
+      <li>Your manager or HR</li>
       <li>Compliance and Ethics team: compliance@aretion.co.uk</li>
       <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
     </ul>
+    <p><strong>Non-retaliation:</strong> ARETION prohibits retaliation against anyone who raises a concern in good faith. Retaliation is itself a serious breach of this Code.</p>
 
-    <h3>Consequences of Breaches</h3>
-    <p>Breaches of this Code are taken seriously and may result in disciplinary action up to and including dismissal, referral to professional regulators, referral to law enforcement, and civil liability.</p>
+    <h3>17. Responsibilities of Managers and Leaders</h3>
+    <p>Managers and leaders have additional responsibilities to promote a culture of ethics and compliance. This includes leading by example, ensuring that team members understand and comply with this Code, creating an environment where concerns can be raised safely, taking concerns seriously, and supporting training and awareness.</p>
+
+    <h3>18. Monitoring, Accountability, and Consequences of Breaches</h3>
+    <p>ARETION monitors compliance with this Code through audits, reviews, and investigations. Breaches of this Code are taken seriously and may result in:</p>
+    <ul>
+      <li>Disciplinary action, up to and including dismissal</li>
+      <li>Referral to professional regulators (e.g., GMC, NMC)</li>
+      <li>Referral to law enforcement authorities</li>
+      <li>Civil liability</li>
+      <li>Termination of contracts with external parties</li>
+    </ul>
+    <p>Ignorance of this Code is not a defence.</p>
+
+    <h3>19. Changes to This Code and Questions</h3>
+    <p>ARETION reserves the right to update this Code at any time. Updates will be communicated to all personnel and published internally. If you have questions about this Code, contact Compliance and Ethics: compliance@aretion.co.uk</p>
   </div>
 );
 
