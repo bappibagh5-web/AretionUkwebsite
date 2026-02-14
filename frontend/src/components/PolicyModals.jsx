@@ -1,6 +1,136 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { X } from 'lucide-react';
 
+// Anti-Bribery and Anti-Corruption Content
+const AntiBriberyContent = () => (
+  <div className="prose prose-sm max-w-none" style={{ fontFamily: 'var(--font-body)' }}>
+    <p className="text-sm text-gray-500 mb-4">Last updated: 14 Feb 2026</p>
+    
+    <h3>1. Policy Statement</h3>
+    <p>ARETION & Company and its subsidiaries have zero tolerance for bribery and corruption in any form. We are committed to conducting business ethically, transparently, and in full compliance with all applicable anti-bribery and anti-corruption laws, including the UK Bribery Act 2010 and applicable laws in Saudi Arabia, UAE, Qatar, and Kuwait.</p>
+    <p>This policy applies to all employees, officers, directors, contractors, consultants, agents, partners, and anyone acting on behalf of ARETION & Company in all jurisdictions where we operate.</p>
+
+    <h3>2. What is Bribery and Corruption?</h3>
+    <p><strong>Bribery</strong> is the offer, promise, giving, requesting, or acceptance of any advantage (financial or non-financial) with the intention of inducing someone to perform an improper function or activity, rewarding them for having done so, or influencing them to act improperly in their position of trust.</p>
+    <p>An advantage can include:</p>
+    <ul>
+      <li>Cash payments or loans</li>
+      <li>Gifts (tangible items of value)</li>
+      <li>Hospitality, entertainment, or travel</li>
+      <li>Employment opportunities or contracts</li>
+      <li>Donations or sponsorships</li>
+      <li>Preferential treatment or services</li>
+    </ul>
+    <p><strong>Corruption</strong> includes the misuse of entrusted power or position for private gain, including bribery, embezzlement, fraud, extortion, abuse of discretion, and nepotism.</p>
+
+    <h3>3. Prohibited Conduct</h3>
+    <p>ARETION & Company strictly prohibits:</p>
+    <ul>
+      <li><strong>Offering or Giving Bribes:</strong> Offering, promising, or giving anything of value to improperly influence a business decision</li>
+      <li><strong>Receiving or Soliciting Bribes:</strong> Requesting, accepting, or agreeing to accept anything of value in exchange for improper performance of duties</li>
+      <li><strong>Using Third Parties for Bribery:</strong> Using agents, intermediaries, consultants, or partners to offer or pay bribes on our behalf</li>
+      <li><strong>Facilitation Payments:</strong> Small payments to government officials to expedite routine administrative actions are strictly prohibited</li>
+    </ul>
+
+    <h3>4. Gifts and Hospitality</h3>
+    <p>Modest, reasonable gifts and hospitality may be appropriate in certain business contexts, provided they:</p>
+    <ul>
+      <li>Are of modest value (typically under £50 GBP or equivalent)</li>
+      <li>Are not cash, cash equivalents, or loans</li>
+      <li>Are not connected to a pending business decision or contract</li>
+      <li>Are transparent and properly recorded</li>
+      <li>Do not create a perception of impropriety</li>
+    </ul>
+    <p>The following are never acceptable: cash or gift cards, gifts to influence a specific decision, lavish or extravagant gifts, or anything that could reasonably be perceived as a bribe.</p>
+
+    <h3>5. Dealings with Government Officials</h3>
+    <p>Interactions with government officials, public sector employees, and representatives of state-owned enterprises require heightened care. Before providing any gift, hospitality, donation, or other benefit to a government official, you must obtain prior written approval from the Compliance and Ethics team.</p>
+
+    <h3>6. Third-Party Intermediaries</h3>
+    <p>We are responsible for the conduct of agents, consultants, distributors, subcontractors, joint venture partners, and other intermediaries acting on our behalf. Before engaging any third party, we must conduct proportionate due diligence and ensure they understand and agree to comply with this policy.</p>
+
+    <h3>7. Reporting Suspected Bribery</h3>
+    <p>If you suspect, become aware of, or are offered a bribe, you must report it immediately to:</p>
+    <ul>
+      <li>Compliance and Ethics team: compliance@aretion.co.uk</li>
+      <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
+    </ul>
+    <p>ARETION prohibits retaliation against anyone who reports concerns in good faith.</p>
+
+    <h3>8. Consequences of Breaches</h3>
+    <p>Breaches of this policy are serious and may result in:</p>
+    <ul>
+      <li>Disciplinary action, up to and including dismissal</li>
+      <li>Referral to law enforcement authorities</li>
+      <li>Criminal prosecution (imprisonment, fines)</li>
+      <li>Civil liability and damages</li>
+      <li>Regulatory sanctions against ARETION</li>
+    </ul>
+
+    <h3>9. Contact</h3>
+    <p>For questions, guidance, or to report concerns:</p>
+    <ul>
+      <li>Compliance and Ethics Team: compliance@aretion.co.uk</li>
+      <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
+    </ul>
+  </div>
+);
+
+// Code of Conduct Content
+const CodeOfConductContent = () => (
+  <div className="prose prose-sm max-w-none" style={{ fontFamily: 'var(--font-body)' }}>
+    <p className="text-sm text-gray-500 mb-4">Last updated: 10 Feb 2026</p>
+    
+    <p>ARETION & Company and its subsidiaries—ARETION Informatics Solutions, ARETION Publishing Group, and ARETION Healthcare Consulting—are committed to the highest standards of ethical conduct, professional integrity, and legal compliance.</p>
+
+    <h3>Our Promise</h3>
+    <p>This Code of Conduct reflects our promise to our clients, patients, partners, employees, and the public that we will:</p>
+    <ul>
+      <li>Act with honesty and transparency in all dealings</li>
+      <li>Prioritise patient safety and wellbeing in all advice and recommendations</li>
+      <li>Provide independent, objective, evidence-based guidance free from conflicts of interest</li>
+      <li>Comply strictly with applicable laws and regulations</li>
+      <li>Respect human rights, dignity, and equality</li>
+      <li>Operate sustainably and responsibly</li>
+      <li>Speak up about misconduct without fear of retaliation</li>
+    </ul>
+
+    <h3>Who This Code Applies To</h3>
+    <p>This Code applies to all employees of ARETION & Company and its subsidiaries (full-time, part-time, fixed-term, and temporary), officers, directors, partners, contractors, consultants, and anyone representing ARETION & Company in any capacity.</p>
+
+    <h3>Our Core Values</h3>
+    <p><strong>Integrity:</strong> We act with honesty, fairness, and transparency in all our dealings. We keep our commitments, acknowledge mistakes, and are accountable for our actions.</p>
+    <p><strong>Patient-Centred Impact:</strong> Healthcare is our business. Everything we do must ultimately benefit patients and improve health outcomes. We prioritise patient safety, dignity, equity, and access to care in all recommendations.</p>
+    <p><strong>Independence and Objectivity:</strong> We provide impartial, evidence-based advice. We do not allow conflicts of interest, personal relationships, financial ties, or client preferences to compromise our professional judgment.</p>
+    <p><strong>Respect:</strong> We value the dignity, rights, autonomy, and wellbeing of everyone we work with. We treat all people fairly, regardless of background.</p>
+    <p><strong>Accountability:</strong> We take responsibility for the quality and integrity of our work, the accuracy of our analysis, and the impact of our projects.</p>
+    <p><strong>Sustainability:</strong> We consider the long-term environmental and social impact of our work.</p>
+    <p><strong>Transparency:</strong> We communicate openly and honestly with clients, regulators, employees, and the public.</p>
+
+    <h3>Anti-Bribery and Anti-Corruption</h3>
+    <p>ARETION & Company and its subsidiaries have a zero-tolerance policy on bribery and corruption. We do not tolerate bribery in any form, whether offered by us, to us, or by anyone acting on our behalf.</p>
+
+    <h3>Conflicts of Interest</h3>
+    <p>A conflict of interest arises where your personal or financial interests, relationships, or commitments could, or could be perceived to, influence your professional judgment. You must disclose any actual or potential conflict of interest immediately.</p>
+
+    <h3>Confidentiality and Data Protection</h3>
+    <p>ARETION & Company handles sensitive and confidential information including patient data, client strategic information, and employee personal information. Everyone is responsible for protecting confidential and personal information.</p>
+
+    <h3>Fair Treatment and Inclusion</h3>
+    <p>ARETION & Company is committed to creating a workplace that is fair, respectful, inclusive, and free from discrimination and harassment. We do not tolerate discrimination or harassment in any form.</p>
+
+    <h3>Speaking Up</h3>
+    <p>We encourage and support employees, contractors, and partners to speak up about concerns without fear of retaliation. Report concerns to:</p>
+    <ul>
+      <li>Compliance and Ethics team: compliance@aretion.co.uk</li>
+      <li>External Whistleblowing Hotline: +44 20 3985 0907</li>
+    </ul>
+
+    <h3>Consequences of Breaches</h3>
+    <p>Breaches of this Code are taken seriously and may result in disciplinary action up to and including dismissal, referral to professional regulators, referral to law enforcement, and civil liability.</p>
+  </div>
+);
+
 // Conflicts of Interest Policy Content
 const ConflictsOfInterestContent = () => (
   <div className="prose prose-sm max-w-none" style={{ fontFamily: 'var(--font-body)' }}>
