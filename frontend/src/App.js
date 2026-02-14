@@ -11,8 +11,6 @@ import Standards from './pages/Standards';
 import Newsroom from './pages/Newsroom';
 import Careers from './pages/Careers';
 import Contact from './pages/Contact';
-import Privacy from './pages/Privacy';
-import Terms from './pages/Terms';
 import { Toaster } from './components/ui/sonner';
 import './styles/theme.css';
 import './App.css';
@@ -33,8 +31,6 @@ function App() {
             <Route path="/newsroom" element={<Newsroom />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/privacy" element={<Privacy />} />
-            <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>
         <Footer />
