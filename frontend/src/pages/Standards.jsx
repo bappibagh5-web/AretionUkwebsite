@@ -4,6 +4,8 @@ import { usePolicyModals } from '../components/PolicyModals';
 
 // Define the policies with their modal handlers
 const policiesConfig = [
+  { name: 'Anti-Bribery and Anti-Corruption Policy', modalKey: 'antibribery' },
+  { name: 'Code of Conduct', modalKey: 'code' },
   { name: 'Conflicts of Interest', modalKey: 'conflicts' },
   { name: 'Privacy Notice (UK GDPR)', modalKey: 'privacy' },
   { name: 'Information Security and Confidentiality', modalKey: 'security' },
