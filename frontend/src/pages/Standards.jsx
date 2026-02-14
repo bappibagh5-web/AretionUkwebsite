@@ -135,7 +135,7 @@ const Standards = () => {
               For enquiries about our standards and policies, please contact us
             </p>
             <a 
-              href="mailto:contact@aretion.org"
+              href="mailto:post@aretion.co.uk"
               className="inline-flex items-center space-x-2 px-8 py-4 font-medium rounded border-2 transition-all"
               style={{
                 borderColor: 'var(--aretion-navy)',
@@ -151,7 +151,7 @@ const Standards = () => {
                 e.currentTarget.style.color = 'var(--aretion-navy)';
               }}
             >
-              contact@aretion.org
+              post@aretion.co.uk
             </a>
           </div>
         </div>
