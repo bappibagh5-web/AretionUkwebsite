@@ -76,12 +76,12 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-6">
               <a 
-                href="mailto:contact@aretion.org"
+                href="mailto:post@aretion.co.uk"
                 className="flex items-center gap-2 text-sm transition-opacity hover:opacity-80"
                 style={{ color: 'white' }}
               >
                 <Mail size={16} />
-                <span>contact@aretion.org</span>
+                <span>post@aretion.co.uk</span>
               </a>
             </div>
           </div>
