@@ -85,6 +85,8 @@ export const leadershipTeam = [
 ];
 
 export const policiesAndStandards = [
+  "Anti-Bribery and Anti-Corruption Policy",
+  "Code of Conduct",
   "Conflicts of Interest",
   "Privacy Notice (UK GDPR)",
   "Information Security and Confidentiality",
