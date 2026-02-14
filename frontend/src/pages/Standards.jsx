@@ -19,12 +19,16 @@ const Standards = () => {
     openPrivacyNotice, 
     openInformationSecurity, 
     openComplaintsHandling, 
-    openPublishingEthics, 
+    openPublishingEthics,
+    openAntiBribery,
+    openCodeOfConduct,
     PolicyModals 
   } = usePolicyModals();
 
   // Map modal keys to their handlers
   const modalHandlers = {
+    antibribery: openAntiBribery,
+    code: openCodeOfConduct,
     conflicts: openConflictsOfInterest,
     privacy: openPrivacyNotice,
     security: openInformationSecurity,
