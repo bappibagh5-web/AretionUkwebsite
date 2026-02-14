@@ -95,7 +95,9 @@ Create a conservative website for ARETION & Company, a UK-based group. The compa
 
 2. **Standards & Policies Page - Modal System (Feb 2026)**
    - Removed obsolete tabs: "Modern Slavery Statement" and "Speak up policy"
-   - Implemented modal pop-ups for 5 policy documents:
+   - Implemented modal pop-ups for 7 policy documents:
+     - Anti-Bribery and Anti-Corruption Policy (NEW)
+     - Code of Conduct (NEW - from uploaded document)
      - Conflicts of Interest Policy
      - Privacy Notice (UK GDPR)
      - Information Security and Confidentiality
@@ -104,6 +106,11 @@ Create a conservative website for ARETION & Company, a UK-based group. The compa
    - Content sourced from user-provided DOCX documents
    - Consistent font styling with IBM Plex Sans
    - Responsive modal design with escape key and click-outside-to-close support
+   
+3. **Footer Legal Links (Feb 2026)**
+   - Added Anti-Bribery Policy link to footer utility bar
+   - Updated Code of Conduct with content from new uploaded document
+   - Footer now has 4 legal links: Privacy Notice, Terms of Use, Code of Conduct, Anti-Bribery Policy
 
 2. **Pages Created (11 total):**
    - Home (hero, company overview, group companies, initiatives)
